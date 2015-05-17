@@ -114,10 +114,10 @@
 
       Node.prototype.makeMaterial = function() {
         return Node.material = new THREE.LineBasicMaterial({
-          color: 0x111111,
+          color: 0x222244,
           depthTest: false,
           transparent: true,
-          linewidth: 1,
+          linewidth: 2,
           blending: THREE.AdditiveBlending
         });
       };
